@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: hsl(210, 46%, 95%);
+  Font-size: 13px;
+}
+.content {
+  margin: 100px auto;
+  max-width: 88%;
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  grid-template-rows: repeat(2 , auto);
+  gap: 20px 20px;
+}
+@media (max-width: 425px) {
+  .content {
+    margin: 20px auto;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.content > div {
+  padding: 25px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+@media (max-width: 425px) {
+  .content > div {
+    max-width: 100%;
+  }
+}
+.content > div div {
+  display: flex;
+  margin-bottom: 15px;
+}
+.content > div div img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.cont-1 {
+  grid-area: 1/1/2/3;
+  background-color: hsl(263, 55%, 52%);
+  position: relative;
+  z-index: -1;
+}
+.cont-1 > img {
+  position: absolute;
+  top: 0;
+  right: 20%;
+  z-index: -1;
+}
+.cont-2 {
+  grid-area: 1/3/2/4;
+  background-color: hsl(217, 19%, 35%);
+}
+.cont-3 {
+  grid-area: 1/4/3/5;
+  background-color: hsl(0, 0%, 100%);
+}
+.cont-4 {
+  grid-area: 2/1/3/2;
+  background-color: hsl(0, 0%, 100%);
+}
+.cont-1 h4,
+.cont-2 h4,
+.cont-5 h4 {
+  margin: 7px;
+  color: white;
+}
+.cont-1 h4 span ,
+.cont-2 h4 span,
+.cont-5 h4 span {
+  color: hsl(0, 0%, 100% , 50%);
+}
+.cont-1 h2,
+.cont-2 h2,
+.cont-5 h2 {
+  color: white;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.cont-1 p,
+.cont-2 p,
+.cont-5 p {
+  color: hsl(0, 0%, 100%, 70%);
+  line-height: 1.6;
+}
+.cont-3 h4,
+.cont-4 h4 {
+  margin: 7px;
+  color: black;
+}
+.cont-3 h2,
+.cont-4 h2 {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.cont-3 p,
+.cont-4 p {
+  line-height: 1.6;
+  color: hsl(0, 0%, 0%, 70%);
+}
+.cont-3 h4 span,
+.cont-4 h4 span {
+  color: hsl(0, 0%, 0% , 50%);
+}
+.cont-5 {
+  grid-area: 2/2/3/4;
+  background-color: hsl(219, 29%, 14%);
+}
