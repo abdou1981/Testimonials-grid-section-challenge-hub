@@ -29,7 +29,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/abdou1981/Testimonials-grid-section-challenge-hub)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://abdou1981.github.io/Testimonials-grid-section-challenge-hub/)
 
 ## My process
 
