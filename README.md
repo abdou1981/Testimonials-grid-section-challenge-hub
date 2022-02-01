@@ -44,7 +44,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Useful resources
 
-- [Example resource 1](https://developer.mozilla.org/en-US/docs/Web/CSS/grid)
+- [MDN grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid)
 
 
 ## Author
