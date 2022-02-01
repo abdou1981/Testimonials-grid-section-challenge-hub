@@ -28,7 +28,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/abdou1981/Testimonials-grid-section-challenge-hub)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -44,10 +44,10 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com)
+- [Example resource 1](https://developer.mozilla.org/en-US/docs/Web/CSS/grid)
 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@abdou1981](https://www.frontendmentor.io/profile/abdou1981)
 
